@@ -1,7 +1,7 @@
 ---
 - name: Create a file on remote host
   hosts: all
-  gather_facts: false
+  gather_facts: true
   tasks:
     - name: Touch a file
       file:
