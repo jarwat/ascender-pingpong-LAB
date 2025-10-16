@@ -1,0 +1,10 @@
+---
+- name: Create a file on remote host
+  hosts: all
+  gather_facts: false
+  tasks:
+    - name: Touch a file
+      file:
+        path: /tmp/seedtheking.txt
+        state: touch
+
