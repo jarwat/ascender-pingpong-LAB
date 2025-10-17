@@ -5,6 +5,6 @@
   tasks:
     - name: Touch a file
       file:
-        path: /tmp/seedtheking.txt
+        path: /tmp/seedtheking_infra.txt
         state: touch
 
